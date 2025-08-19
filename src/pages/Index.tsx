@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
+  const handleRedirect = () => {
+    window.open("https://t.me/babykk010", "_blank");
+  };
+
   return (
     <div className="min-h-screen bg-gradient-babykk flex flex-col items-center justify-center gap-8">
       <div className="flex flex-col items-center gap-8">
@@ -13,6 +17,7 @@ const Index = () => {
             variant="pink" 
             size="lg"
             className="w-48 h-12 text-base font-semibold"
+            onClick={handleRedirect}
           >
             buy
           </Button>
@@ -21,6 +26,7 @@ const Index = () => {
             variant="purple" 
             size="lg"
             className="w-48 h-12 text-base font-semibold"
+            onClick={handleRedirect}
           >
             Free previews
           </Button>
