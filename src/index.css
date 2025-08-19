@@ -40,6 +40,8 @@ All colors MUST be HSL.
     /* Gradients */
     --gradient-babykk: linear-gradient(135deg, hsl(330 100% 90%), hsl(290 80% 85%), hsl(0 0% 100%));
     --gradient-text: linear-gradient(45deg, hsl(320 80% 65%), hsl(290 70% 55%));
+    --gradient-button-pink: linear-gradient(135deg, hsl(330 80% 75%), hsl(0 0% 100%));
+    --gradient-button-purple: linear-gradient(135deg, hsl(290 70% 70%), hsl(0 0% 100%));
 
     --radius: 0.5rem;
 

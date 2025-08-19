@@ -66,6 +66,8 @@ export default {
 			backgroundImage: {
 				'gradient-babykk': 'var(--gradient-babykk)',
 				'gradient-text': 'var(--gradient-text)',
+				'gradient-button-pink': 'var(--gradient-button-pink)',
+				'gradient-button-purple': 'var(--gradient-button-purple)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
