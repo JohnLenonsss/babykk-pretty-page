@@ -16,19 +16,19 @@ const Index = () => {
           <Button 
             variant="pink" 
             size="lg"
-            className="w-48 h-12 text-base font-semibold"
+            className="w-48 h-12 text-base font-bold font-poppins uppercase"
             onClick={handleRedirect}
           >
-            buy
+            BUY
           </Button>
           
           <Button 
             variant="purple" 
             size="lg"
-            className="w-48 h-12 text-base font-semibold"
+            className="w-48 h-12 text-base font-bold font-poppins uppercase"
             onClick={handleRedirect}
           >
-            Free previews
+            FREE PREVIEWS
           </Button>
         </div>
       </div>

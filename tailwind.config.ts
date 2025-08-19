@@ -69,6 +69,9 @@ export default {
 				'gradient-button-pink': 'var(--gradient-button-pink)',
 				'gradient-button-purple': 'var(--gradient-button-purple)',
 			},
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
